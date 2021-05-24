@@ -29,7 +29,8 @@ jobs:
         run: time
 
   job4:
-    name: Job Dependente 
+    name: Job Dependente
+    runs-on: ubuntu-latest
     steps:
       - name: Passo 1
         run: time
