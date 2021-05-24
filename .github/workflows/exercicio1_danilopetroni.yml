@@ -19,7 +19,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Passo 1
-        run: time
+        run: get-date
 
   job3:
     name: Hora no MAC
